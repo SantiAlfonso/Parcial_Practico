@@ -30,7 +30,7 @@ public class recibeDatos extends HttpServlet {
         try {
             String nombre = request.getParameter("nombre");
             String apellidos = request.getParameter("apellidos");
-            Double promedio = Double.parseDouble(request.getParameter("prom"));
+            Double promedio = Double.parseDouble(request.getParameter("promedio"));
 
             Alumno alumno = new Alumno(nombre, apellidos, promedio);
             ServletContext sc = this.getServletContext();

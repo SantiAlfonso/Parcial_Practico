@@ -17,8 +17,7 @@
         <h2>Los alumnos que están registrados son: </h2>
         <%
         ArrayList<Alumno> alumnos = null;
-        alumnos =
-        (ArrayList<Alumno>)request.getAttribute("Alumnos");
+        alumnos = (ArrayList<Alumno>)request.getAttribute("Alumnos");
         String numReg= (String) request.getAttribute("contador");
         int numRegistros = Integer.parseInt(numReg);%>
         <table border="1">

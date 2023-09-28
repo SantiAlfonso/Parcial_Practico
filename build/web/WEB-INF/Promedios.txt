@@ -1,5 +1,2 @@
-Santiago,Alfonso Prieto,3.75
-John,Alfonso,5.0
-Santiago,Alfonso Prieto,3.75
-jhon,gonzalez,5.0
-Daniela,Alarcon,4.0
+santiago,alfondo,3.3
+pepito,perez,2.0

@@ -34,7 +34,7 @@
             <input type="submit" value="Enviar">
         </form>
         
-        <form action="alumnosRegistrados.jsp" method="post">
+        <form action="muestraRegistros" method="post">
             <input type="submit" value="Ver alumnos">
         </form>
     </body>
