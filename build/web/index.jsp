@@ -9,11 +9,12 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="CSS/Mi_Estilo.css" rel="stylesheet" type="text/css"> 
         <title>Captura Datos</title>
     </head>
     <body>
         <%@ page import="Controlador.recibeDatos" %>
-        <h1>Hola! Proporciona tus datos:</h1>
+        <h1>¡Hola! Proporciona tus datos:</h1>
         <form action="recibeDatos" method="post">
             <table cellspacing="3" cellpadding="3" border="1" >
                 <tr>
@@ -30,8 +31,8 @@
                 </tr>
             </table>
 
-            <input type="reset" value="Borrar">
-            <input type="submit" value="Enviar">
+            <input class="button" type="reset" value="Borrar">
+            <input class="button" type="submit" value="Enviar">
         </form>
     </body>
 </html>

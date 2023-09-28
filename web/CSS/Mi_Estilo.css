@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #DAF7A6;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    display: grid;
+    place-items: center;
+    color: #5ED387;
+}
+
+.button {
+    margin: 20px 0; /* 10px de espacio arriba y abajo, ajusta según tus necesidades */
+    background-color:#5ED387;
+    color:white;
+    font-weight: bold;
+    border-color:#5ED387;
+}
+
+table{
+    background: #5ED387;
+    display: grid;
+    place-items: center;
+}
+
+th,td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+tr{
+    background-color: #f2f2f2;
+}
+
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #2144DF;
+    color:white;
+}
+
