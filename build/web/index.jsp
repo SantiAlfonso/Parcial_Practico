@@ -33,5 +33,9 @@
             <input type="reset" value="Borrar">
             <input type="submit" value="Enviar">
         </form>
+        
+        <form action="alumnosRegistrados.jsp" method="post">
+            <input type="submit" value="Ver alumnos">
+        </form>
     </body>
 </html>

@@ -13,7 +13,7 @@
         <title>Alumnos Registrados</title>
     </head>
     <body>
-        <%@ page import="negocios.Alumno, java.util.ArrayList" %>
+        <%@ page import="Modelo.Alumno, java.util.ArrayList" %>
         <h2>Los alumnos que están registrados son: </h2>
         <%
         ArrayList<Alumno> alumnos = null;
