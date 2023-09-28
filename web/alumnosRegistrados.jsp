@@ -45,7 +45,7 @@
         <p> Numero de registros : <%= numRegistros %></p>
         <br>
         <form action="index.jsp" method="post">
-            <input type="submit" value="Regresar">
+            <input class="button" type="submit" value="Regresar">
         </form>
 
     </body>
