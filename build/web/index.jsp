@@ -34,5 +34,8 @@
             <input class="button" type="reset" value="Borrar">
             <input class="button" type="submit" value="Enviar">
         </form>
+         <form action="muestraRegistros" method="post">
+            <input type="submit" value="Ver alumnos">
+        </form>
     </body>
 </html>
